@@ -1,0 +1,6 @@
+﻿  rwm.hpp
+internal\Debug\rwm.obj : warning LNK4042: object specified more than once; extras ignored
+dllmain.obj : error LNK2019: unresolved external symbol "public: __thiscall Core::RWM::RWM(void)" (??0RWM@Core@@QAE@XZ) referenced in function "unsigned long __stdcall MainThread(void)" (?MainThread@@YGKXZ)
+dllmain.obj : error LNK2019: unresolved external symbol "public: __thiscall Core::RWM::~RWM(void)" (??1RWM@Core@@QAE@XZ) referenced in function "unsigned long __stdcall MainThread(void)" (?MainThread@@YGKXZ)
+dllmain.obj : error LNK2019: unresolved external symbol "public: void __thiscall Core::RWM::WritePlayerHealth(int)" (?WritePlayerHealth@RWM@Core@@QAEXH@Z) referenced in function "unsigned long __stdcall MainThread(void)" (?MainThread@@YGKXZ)
+C:\Users\Isak\Desktop\renderWindow\internal\Debug\internal.dll : fatal error LNK1120: 3 unresolved externals
